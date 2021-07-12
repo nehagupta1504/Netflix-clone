@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+.container-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1{
+    margin: 0;
+    background-image: url(../assets/netflix-background.jpg), linear-gradient(110deg,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.8) 60%,rgba(0,0,0,.4) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+   
+} 
+.nav-logo{
+    width: 180px;
+    padding: 0px 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.left-navbar{
+    display: flex;
+}
+.right-navbar{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.btn-language{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    width: 95px !important;
+    height: 2rem;
+    margin: 0px 20px;
+}
+.language-div{
+    margin: 0px 7px
+}
+.language-div ul{
+    max-width: auto;
+    background: linear-gradient(to top,rgba(300,0,0,.8) 0,rgba(0,300,0,0) 60%,rgba(0, 0, 0, 0.575) 100%);
+}
+.btn{
+    border-radius: 3px;
+    width: 80px;
+    height: 1.8rem;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.dropdown li{
+    list-style: none;
+    
+}
+.dropdown a{
+    text-decoration: none;
+    color:white;
+}
+.ddown-visible{
+    display: none;
+}
+.fa-sort-down:after {
+    content: "\f107";
+    
+    padding-left: 2px;
+}
+
+.fa-sort-down:before {
+    content:none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    max-width: 600px;
+    position: relative;
+}
+
+.content h1{
+    color: white;
+    font-size: 3.2rem;
+    padding: 0;
+    max-width: 600px;
+    text-align: center;
+}
+.content h3{
+    color: white;
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.content p{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 2%;
+}
+.inner-content{
+    display: flex;
+    width: 100%;
+}
+
+.inner-content input{
+    width: 70%;
+    height: 3.5rem;
+    padding: 5px;
+    vertical-align: center;
+}
+.inner-content button{
+    width: 30%;
+}
+
+.fa-chevron-right:after{
+    content: "\f054";
+    padding-left: 5px;
+}
+.fa-chevron-right:before {
+    content:none;
+}
