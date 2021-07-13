@@ -141,16 +141,17 @@ body {
 .inner-content {
   display: flex;
   width: 100%;
+  justify-content: center;
 }
 
 .inner-content input {
-  width: 65%;
-  height: 3.5rem;
+  width: 60%;
+  height: 4rem;
   padding: 5px;
   vertical-align: center;
 }
 .inner-content button {
-  width: 35%;
+  width: 30%;
 }
 
 .fa-chevron-right:after {
@@ -203,7 +204,7 @@ body {
 .animation {
   background-image: url(../assets/tv-image.png);
   background-repeat: no-repeat;
-  width: 90%;
+  width: 80%;
   background-size: 100% 100%;
   margin: auto;
   height: 300px;
@@ -211,12 +212,15 @@ body {
   justify-content: center;
   position: relative;
 }
+.animation-1 {
+  background-image: url(../assets/section-4.png);
+}
 .video-animation {
   /* position: absolute;
-  width: 83%;
-  height: 52%;
-  top: 21%;
-  right: 14%; */
+    width: 83%;
+    height: 52%;
+    top: 21%;
+    right: 14%; */
   background-color: black;
   height: 54%;
   width: 72%;
@@ -282,4 +286,80 @@ video {
   height: 30%;
   align-self: center;
   margin: 0 20px;
+}
+.sec6 {
+  min-height: auto !important;
+  height: auto;
+}
+.sec6-inner {
+  margin-top: 5%;
+  width: 50%;
+}
+.accordians-FAQ {
+  background-color: black;
+}
+.accordion-item,
+.accordion-button {
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+.accordion-item {
+  margin-top: 10px;
+}
+.accordion-button {
+  height: 4rem;
+  font-size: 30px;
+}
+.sec6-inner h1 {
+  margin-bottom: 50px;
+}
+.sec6-inner .h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.sec7 {
+  display: flex;
+  justify-content: flex-start;
+}
+.sec7-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 17%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(82, 80, 80);
+}
+
+.services {
+  display: flex;
+  text-align: left;
+  padding: 5px;
+}
+.services a {
+  text-decoration: none;
+  color: rgb(82, 80, 80);
+  padding: 5px;
+  width: auto;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.footer-icon {
+  color: rgb(82, 80, 80);
+  border: 1px solid white;
+  width: fit-content;
+  height: fit-content;
+
+  padding: 15px;
+}
+.contact-button {
+  margin-top: 20px;
+}
+
+.netflix-india {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: smaller;
 }
