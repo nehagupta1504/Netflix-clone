@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  background-color: gray;
+  background-color: rgb(51, 51, 51);
+  color: white;
 }
 .container-1 {
   display: flex;
@@ -27,7 +28,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  height: 40rem;
+  height: 50rem;
 }
 .navbar {
   display: flex;
@@ -188,13 +189,13 @@ body {
   margin-right: 8%;
   margin-left: 0px;
 }
-.section h1 {
+.h1 {
   color: white;
   font-size: 3rem;
   letter-spacing: -2px;
   padding: 3px;
 }
-.section h3 {
+.h3 {
   color: white;
   font-size: 1.2rem;
   padding: 3px;
@@ -231,4 +232,54 @@ video {
   margin: 0;
   padding: 0;
   opacity: 0.8;
+}
+.inner-section-one-right,
+.inner-section-two-right {
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.inner-section-one-right {
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 0;
+  position: relative;
+}
+.img-strager-things {
+  width: 46%;
+}
+.stranger-things-cover {
+  display: flex;
+  border: 1px solid white;
+  height: 39%;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  align-items: center;
+  position: absolute;
+  bottom: 2%;
+  background-color: black;
+  min-width: 60%;
+}
+.stranger-things-cover p {
+  margin: 0;
+  padding: 0;
+}
+.stranger-things-cover-inner-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.stranger-cover-icon {
+  height: 90%;
+  padding: 10px;
+}
+.animated-icon {
+  height: 30%;
+  align-self: center;
+  margin: 0 20px;
 }
