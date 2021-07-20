@@ -1,0 +1,11 @@
+@media screen and (max-width: 750px) {
+  .sec1 {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .signup-form {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+}

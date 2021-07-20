@@ -31,10 +31,3 @@ var accordians = function () {
     });
   }
 };
-
-// btn.addEventListener("click", () => {
-//   btn.forEach((element) => {
-//     console.log(this.id);
-//     console.log(btn.id);
-//   });
-// });

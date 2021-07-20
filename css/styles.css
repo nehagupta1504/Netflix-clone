@@ -395,7 +395,7 @@ video {
   display: none;
 }
 .accordian-answer-visible {
-  display: "" !important;
+  display: "";
 }
 
 .fas {
