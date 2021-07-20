@@ -85,8 +85,7 @@ a {
 .white {
   color: white;
 }
-.signup label,
-a {
+.signup label {
   margin: 7% 0;
   font-size: 15px;
 }
